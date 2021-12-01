@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>EECS448 Lab09 Exercise 3</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="formChecker.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="customerBackend.php" method="post" onsubmit="return validate()">
+                <div id="productInfo">
+                    <div class="product">
+                        <h2 class="productTitle">Product 1: Book</h2>
+                        <img src="book.jpeg" id="image" width="200" height="200">
+                        <br>
+                        <h4 class="productPrice">Price: $5.00</h4>
+                        <br>
+                        <label for="bookNum">Quantity:</label>
+                        <input id="bookNum" type="number" name="bookNum" value="0">
+                    </div>
+                    <div class="product">
+                        <h2 class="productTitle">Product 2: Basketball</h2>
+                        <img src="basketball.jpg" id="image" width="200" height="200">
+                        <br>
+                        <h4 class="productPrice">Price: $15.00</h4>
+                        <br>
+                        <label for="basketballNum">Quantity:</label>
+                        <input id="basketballNum" type="number" name="basketballNum" value="0">
+                    </div>
+                    <div class="product">
+                        <h2 class="productTitle">Product 3: Backpack</h2>
+                        <img src="backpack.jpg" id="image" width="200" height="200">
+                        <br>
+                        <h4 class="productPrice">Price: $28.00</h4>
+                        <br>
+                        <label for="backpackNum">Quantity:</label>
+                        <input id="backpackNum" type="number" name="backpackNum" value="0">
+                    </div>
+                </div>
+                <div id="userInfo">
+                    <div class="user">
+                        <h2 class="userTitle">Customer Information</h2>
+                        <label for="email">Email:</label>
+                        <input id="email" type="text" name="email" placeholder="example@gmail.com">
+                        <br>
+                        <label for="password">Password:</label>
+                        <input id="password" type="text" name="password">
+                    </div>
+                </div>
+                <div id="shippingInfo">
+                    <div class="shipping">
+                        <h2 class="shippingTitle">Shipping</h2>
+                        <p>Please select your prefered method of shipping:</p>
+                        <input type="radio" id="s1" name="shipping" value="0">
+                        <label for="s1">Free 7 Day</label><br>
+                        <input type="radio" id="s2" name="shipping" value="50">
+                        <label for="s2">$50.00 Over Night</label><br>
+                        <input type="radio" id="s3" name="shipping" value="5">
+                        <label for="s3">$5.00 Three Day</label>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <div class="formButtons">
+                        <input class="reset" type="reset">
+                        <input class="submit" type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

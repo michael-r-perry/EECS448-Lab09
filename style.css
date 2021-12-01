@@ -1,0 +1,72 @@
+div.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.product {
+    background-color: #e5e5e5;
+    border: 3px solid #fca311;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+div.user {
+    background-color: #e5e5e5;
+    border: 3px solid #fca311;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+div.shipping {
+    background-color: #e5e5e5;
+    border: 3px solid #fca311;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+div.formButtons {
+    background-color: #e5e5e5;
+    border: 3px solid #fca311;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
+
+table, th, td {
+    border: 1px solid #14213d;
+}
+
+th {
+    background-color: #fca311;
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
+
+td {
+    background-color: #e5e5e5;
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
